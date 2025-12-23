@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.2.css">
+    <link rel="icon" type = " image/png" href = "иконка2.jpg">
+    <title>РЕКИ МИРА</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Шапка -->
+<header class="header">
+    <!-- Левая часть: Логотип -->
+    <div class="header-left">
+        <a href="index.html" class="logo">
+            <i class='bx bx-water'></i>
+            РЕКИ МИРА
+        </a>
+    </div>
+    
+    <!-- Центральная часть: Меню навигации (только для десктопа) -->
+    <div class="header-center">
+        <ul class="nav-menu">
+            <li><a href="#1">О нас</a></li>
+            <li><a href="#2">Видео</a></li>
+            <li><a href="#3">Контакты</a></li>
+        </ul>
+    </div>
+    
+    <!-- Правая часть: Все иконки вместе -->
+    <div class="header-right">
+        <!-- Иконка уведомлений с выпадающим списком -->
+        <div class="notification">
+            <div class="notification-badge">
+                <i class='bx bx-bell'></i>
+                <span class="badge-count">3</span>
+            </div>
+            <!-- Выпадающий список уведомлений -->
+            <div class="notification-dropdown">
+                <div class="notification-header">
+                    <h3>Уведомления</h3>
+                </div>
+                <div class="notification-list">
+                    <div class="notification-item unread">
+                        <i class='bx bx-water'></i>
+                        <div class="notification-content">
+                            <p>Новый тур по реке Миссисипи</p>
+                            <span>2 часа назад</span>
+                        </div>
+                    </div>
+                    <div class="notification-item unread">
+                        <i class='bx bx-calendar'></i>
+                        <div class="notification-content">
+                            <p>Завтра экскурсия по Волге</p>
+                            <span>5 часов назад</span>
+                        </div>
+                    </div>
+                    <div class="notification-item">
+                        <i class='bx bx-gift'></i>
+                        <div class="notification-content">
+                            <p>Специальное предложение на туры</p>
+                            <span>1 день назад</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- КНОПКА ВХОДА ДЛЯ ДЕСКТОПА -->
+        <div class="header-register-link">
+            <a href="login2.html">Вход или Регистрация</a>
+        </div>
+        
+        <!-- Иконка входа для мобильных -->
+        <div class="mobile-login-btn">
+            <a href="login2.html" title="Вход">
+                <i class='bx bx-user'></i>
+            </a>
+        </div>
+        
+        <!-- Кнопка бургер-меню -->
+        <button class="menu-btn" aria-label="Открыть меню">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</header>
+
+    <!-- Мобильное меню -->
+    <div class="mobile-menu">
+        <ul class="mobile-nav">
+            <li><a href="#1">О нас</a></li>
+            <li><a href="#2">Видео</a></li>
+            <li><a href="#3">Контакты</a></li>
+            <li><a href="login2.html">Вход или Регистрация</a></li>
+        </ul>
+    </div>
+
+    <!-- Оверлей для меню -->
+    <div class="menu-overlay"></div>
+
+    <!-- Герой секция с фотографией -->
+    <section class="hero">
+        <div class="hero-image">
+            <img src="фон 26.jpg" alt="Озеро Бравиец">
+        </div>
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1 class="hero-subtitle"></h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Перекрывающий объект с карточками -->
+    <section class="overlay-section">
+        <div class="overlay-container">
+            <!-- Текст слева -->
+            <div class="overlay-text">
+                <h2 id ="1">Крупнейшие реки мира</h2>
+                <h3>по континентам</h3>
+                <p class="large-text" id ="4">Планета Земля опутана густой сетью рек, как кровеносными сосудамию.По оценкам ученых, их число превышает 4 миллиарда — от небольших ручьев до могучих гигантов, пересекающих целые континенты. У каждой реки свой уникальный характер, особая экосистема, история и удивительные особенности. В этой статье мы собрали самые крупные и впечатляющие реки мира, чьи масштабы и характеристики поражают воображение.</p>
+            </div>
+
+            <div class="cards-container">
+                <div class="cards-wrapper">
+                    <a href="north-america.html" class="card-link">
+                        <div class="card animate-card">
+                            <div class="card-image">
+                                <img src="миссисипи1.jpg" alt="Миссисипи">
+                            </div> 
+                            <div class="card-number">01</div>
+                            <div class="card-content">
+                                <h4>Северная Америка</h4>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="eurasia.html" class="card-link">
+                        <div class="card animate-card">
+                            <div class="card-image">
+                                <img src="янцзы 1.jpg" alt="Янцзы">
+                            </div> 
+                            <div class="card-number">02</div>
+                            <div class="card-content">
+                                <h4>Евразия</h4>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="south-america.html" class="card-link">
+                        <div class="card animate-card">
+                            <div class="card-image">
+                                <img src="амазонка 2.jpg" alt="Амазонка">
+                            </div> 
+                            <div class="card-number">03</div>
+                            <div class="card-content">
+                                <h4>Южная Америка</h4>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="africa.html"class="card-link">
+                        <div class="card animate-card">
+                            <div class="card-image">
+                                <img src="лена2.jpg" alt="Лена">
+                            </div> 
+                            <div class="card-number">04</div>
+                            <div class="card-content">
+                                <h4>Африка</h4>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- Второй набор карточек (дубликаты) -->
+                    <a href="north-america.html" class="card-link">
+                        <div class="card animate-card">
+                            <div class="card-image">
+                                <img src="миссисипи1.jpg" alt="Миссисипи">
+                            </div> 
+                            <div class="card-number">01</div>
+                            <div class="card-content">
+                                <h4>Северная Америка</h4>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="eurasia.html" class="card-link">
+                        <div class="card animate-card">
+                            <div class="card-image">
+                                <img src="янцзы 1.jpg" alt="Янцзы">
+                            </div> 
+                            <div class="card-number">02</div>
+                            <div class="card-content">
+                                <h4>Евразия</h4>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="south-america.html" class="card-link">
+                        <div class="card animate-card">
+                            <div class="card-image">
+                                <img src="амазонка 2.jpg" alt="Амазонка">
+                            </div> 
+                            <div class="card-number">03</div>
+                            <div class="card-content">
+                                <h4>Южная Америка</h4>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="africa.html" class="card-link">
+                        <div class="card animate-card">
+                            <div class="card-image">
+                                <img src="лена2.jpg" alt="Лена">
+                            </div> 
+                            <div class="card-number">04</div>
+                            <div class="card-content">
+                                <h4>Африка</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="video-section" id ="2">
+                <div class="video-wrapper">
+                    <iframe src="https://rutube.ru/play/embed/c1d8cdcf89a8699d1d1cd6cf61691dd6?autostart=false" width=100% height="600">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3 id ="3">Контакты</h3>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                    <p><b>Город:</b> Москва</p>
+                    <p><b>Адрес:</b> Проспект Вернадского д.78</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p><a href="tel:+79295620335">+7 (929) 562-03-35</a></p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p><a href="mailto:martynyuk-nastena@list.ru">martynyuk-nastena@list.ru</a></p>
+            </div>
+        </div>
+        
+        <div class="footer-section">
+            <h3>Мы на карте</h3>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6698.870438184305!2d37.49034194179355!3d55.66796847981551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54dc1d23b51c3%3A0x74763ed59c81ccb6!2z0KDQotCjINCc0JjQoNCt0JA!5e0!3m2!1sru!2sru!4v1760949734559!5m2!1sru!2sru" 
+                    width="100%" 
+                    height="250" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+        
+        <div class="footer-section">
+            <h3>Быстрые ссылки</h3>
+            <ul class="footer-links">
+                <li><a href="#4"><i class="fas fa-water"></i>Реки</a></li>
+                <li><a href="#1"><i class="fas fa-info-circle"></i>О нас</a></li>
+            </ul>
+        </div>
+    </div>
+    
+</footer>
+    <script>
+    // JavaScript для бургер-меню
+    document.addEventListener('DOMContentLoaded', function() {
+        const menuBtn = document.querySelector('.menu-btn');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const menuOverlay = document.querySelector('.menu-overlay');
+        const mobileLinks = document.querySelectorAll('.mobile-nav a');
+        
+        // Открытие/закрытие меню
+        menuBtn.addEventListener('click', function() {
+            this.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+            menuOverlay.classList.toggle('active');
+            document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
+        });
+        
+        // Закрытие меню при клике на оверлей
+        menuOverlay.addEventListener('click', function() {
+            menuBtn.classList.remove('active');
+            mobileMenu.classList.remove('active');
+            this.classList.remove('active');
+            document.body.style.overflow = '';
+        });
+        
+        // Закрытие меню при клике на ссылку
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                menuBtn.classList.remove('active');
+                mobileMenu.classList.remove('active');
+                menuOverlay.classList.remove('active');
+                document.body.style.overflow = '';
+            });
+        });
+        
+        // Закрытие меню при нажатии Escape
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                menuBtn.classList.remove('active');
+                mobileMenu.classList.remove('active');
+                menuOverlay.classList.remove('active');
+                document.body.style.overflow = '';
+            }
+        });
+    });
+    </script>
+
+    
+</body>
+</html>
